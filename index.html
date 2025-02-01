@@ -204,7 +204,7 @@
     .grid-line3 {
     position: absolute !important;
     left: 80px;
-    width: calc(5% - 80px); /* Match chart container width */
+    width: calc(95% - 44px) !important; /* Match chart container width */
     height: 0.5px;
     background-color: #afafaf3b; /* Line color */
     /* position: relative !important; */
@@ -214,6 +214,7 @@
       display: flex;
       justify-content: space-around;
       align-items: flex-end;
+      width: calc(100% - -38px) !important;
       height: 100%;
       padding-left: 20px;
       padding-right: 10px;
@@ -222,7 +223,7 @@
       left: 80px;
     /* background-color: red; */
       justify-content: space-around;
-    width: calc(100% - 18%);
+      width: calc(100% - 58px);
     font-size: 0.6rem;
     }
     .grid-line-3m3 {
@@ -353,7 +354,6 @@
 </head>
 <body>
   <section>
-    
     <!-- Chart Container -->
     <div class="chart-container3">
       <!-- Y-Axis Labels -->
@@ -368,7 +368,6 @@
         <div class="p">$10 Billion</div>
         <div class="p">$5 Billion </div>
         <div class="p">$0 Billion</div>
-
       </div>
       
       <!-- Bars -->
@@ -426,9 +425,7 @@
         <div class="grid-line3 grid-line-3m3"></div>
         <div class="grid-line3 grid-line-2m3"></div>
         <div class="grid-line3 grid-line-1m3"></div>
-      
       </div>
-      
       <!-- X-Axis Labels -->
       <div class="x-axis-labels3">
         <span class="font-mobile3 ">2019</span>
@@ -436,7 +433,6 @@
         <span class="font-mobile3 ">2023</span>
         <span class="font-mobile3 ">2025F</span>
         <span class="font-mobile3 ">2027F</span>
-        
       </div>
     </div>
   </section>
